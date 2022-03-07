@@ -1,0 +1,62 @@
+body{
+    background-color: #242124;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+#titleContainer{
+    font-family: 'Roboto Mono', monospace;
+
+    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 7s; /* Firefox < 16 */
+    -ms-animation: fadein 7s; /* Internet Explorer */
+    -o-animation: fadein 7s; /* Opera < 12.1 */
+    animation: fadein 7s;
+    text-align: center;
+    font-size: 35px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#buttonContainer{
+    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 7s; /* Firefox < 16 */
+    -ms-animation: fadein 7s; /* Internet Explorer */
+    -o-animation: fadein 7s; /* Opera < 12.1 */
+    animation: fadein 7s;
+    
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.button{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    border-radius: 12px;
+    width: 200px;
+    height: 70px;
+}
