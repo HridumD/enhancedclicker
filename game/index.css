@@ -1,12 +1,15 @@
 .icon {
   color: #8c420a;
-  font-size: 150px;
+  font-size: 200px;
   text-align: center;
+
+  top: 200px;
+  left: 100px;
 
   position: absolute;
   overflow: hidden;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   display: inline-block;
   margin: 25px 0 25px 25px;
@@ -50,4 +53,13 @@
 
 .icon:active:after {
   opacity: 0;
+}
+
+.counterContainer{
+  text-align: center;
+  font-size: 35px;
+  margin: auto;
+  width: 50%;
+  font-family: 'Fredoka', sans-serif;
+  padding: 10px;
 }
